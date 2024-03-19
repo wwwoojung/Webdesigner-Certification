@@ -2,24 +2,21 @@
     width: 100%;
     height: 300px;
     background: #f6f6f6;
+
+    overflow: hidden;
 }
 
 .NainVisual .visual_slide .slide_wrapper {
-    position: relative;
-    height: 300px;
+    display: flex;
+    width: 400%;
+    height: 100%;
 }
 
 .NainVisual .visual_slide .slide_wrapper>.slide {
-    position: absolute;
-    inset: 0 0 0 0;
-
-    opacity: 0;
-    transition: opacity 1s;
+    width: 100%;
+    height: 100%;
 }
 
-.NainVisual .visual_slide .slide_wrapper>.slide.on {
-    opacity: 1;
-}
 
 .NainVisual .visual_slide .slide_wrapper .s1 {
     background: tomato;
